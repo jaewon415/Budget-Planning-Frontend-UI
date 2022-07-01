@@ -1,4 +1,4 @@
-# Budget-Planning
+# Budget Planning
 
 <p align="center">
   <img width="350" height="200" src="https://user-images.githubusercontent.com/17026620/176978118-8f41d4a9-b664-494f-b21e-9a94a78603fa.png">
