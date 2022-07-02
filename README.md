@@ -28,4 +28,44 @@ There are five main pages in the budget planning UI:
 
 ## Key Functionalities
 
+### Create a budget plan
+<p align="center">
+  <img width="350" height="250" src="https://user-images.githubusercontent.com/17026620/177019136-70a1aba0-7c75-4263-85af-40f1a4e44af2.png">
+</p>
+
+To create a plan, the planner must fill out the required information (*) on the form, and all inputs should also be valid. For instance, the date should be in mm/dd/yyyy format, and constraints should have all entries filled out. 
+
+**Select Start of the Plan and End of the Plan**: It is a defined date interval for the budget plan. The End of the Plan date cannot be earlier than the Start of the Plan.
+ 
+**Select Base Planning Period**: It is a defined time interval for the budget plan columns. The planner can choose from the following options: Monthly, Quarterly, and Yearly.
+
+**Add Constraints**: Some constraints on a budget plan may be necessary. For instance, the labor cost should not be more than some percentage of the overall budget. 
+
+**Select Roll-up plan**s: Like how every location in the organization is represented as part of the organization structure hierarchy, the budget plans of entities can also be a part of the budget plan of the larger entity. The planner can create a new roll-up budget plan and edit the plan as one would do with other budget plans. A roll-up plan will consolidate multiple budget plans from its subordinate organization. 
+
+**Access Control**:  Allow planners in the division/department to view or edit the budget plan in the lower level of the organization hierarchy. 
+
+### Manipulate a budget plan
+
+<p align="center">
+  <img width="358" alt="image" src="https://user-images.githubusercontent.com/17026620/177019177-885737b4-4d87-4f00-96fa-7c70b6d080c7.png">
+</p>
+
+**Clone**: This operation will generate an identical budget plan that is already in the graph database. Let’s say a planner wants to clone the budget plan, and the plan corresponding to the version node.
+
+**Delete**: This operation will delete a budget plan from the plan graph database. Deleting the plan from the plan graph database will not affect the version node in the history database. 
+
+**Edit plan**: The planner can edit the budget plan. The current page will redirect to the Table page when clicked. The planner can then edit the plan as one would do with other budget plans.
+
+**Save as**: This will allow the planner to make changes to the initial budget information such as constraints, plan start and end date, etc.
+
+<p align="center">
+  <img width="324" alt="image" src="https://user-images.githubusercontent.com/17026620/177019191-8f8b4d04-5262-48ea-824c-08f7942feea6.png">
+</p>
+
+**Merge**: This operation will merge two budget plans into one budget plan.
+
+### Edit Hierarchical Spreadsheet
+
+
 ## References
