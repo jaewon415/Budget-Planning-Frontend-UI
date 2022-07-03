@@ -56,8 +56,6 @@ There are five main pages in the budget planning UI:
 
 **One User-Oriented**: Excel is difficult for multiple users entering and analysing data at the same time. The file becomes more prone to error when multiple users are editing and accessing the data at the same time. Budgeting often requires consolidating data from across the organization.
 
-Our implementation of the budget planning application that runs on top of the Neo4j graph database reduces the productivity burden of the budgeting process through version control implementation. 
-
 ## Key Functionalities
 
 ### I. Create a budget plan
