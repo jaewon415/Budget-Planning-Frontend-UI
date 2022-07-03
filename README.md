@@ -1,8 +1,18 @@
 # Budget Planning
 
 <p align="center">
-  <img width="350" height="200" src="https://user-images.githubusercontent.com/17026620/176978118-8f41d4a9-b664-494f-b21e-9a94a78603fa.png">
+  <img width="642" alt="Screen Shot 2022-07-03 at 9 26 40 AM" src="https://user-images.githubusercontent.com/17026620/177019940-83ca5947-7324-44e4-8183-eff67aca3a73.png">
+  
 </p>
+
+<!-- <p align="center">
+<img width="290"  src="https://user-images.githubusercontent.com/17026620/177019707-678a8a31-10f3-4761-9999-2f12582eaac3.png">
+</p>
+
+- **Version Control**: Application has version control functionalities implemented, such as merge, clone, retrieve, etc. 
+- **Access Control**: Planner can choose who can edit the budget and who can view the budget (and rolling-up the budget).
+- **Excel-Like**: Supports redo, undo, write formula, revert, etc on the hierarchical spreadsheet.
+- **Disaggregation**: Referential, Interval, proportional, and row-average disaggregate operators are implemented -->
 
 There are five main pages in the budget planning UI:
 -	**Home Page**: Budget planners typically don’t stick with just one budget because there are too many uncertainties about the future. The whole point of a budget is to set expectations over a certain period of time and measure performance against the actual. This page will allow a planner to compare actual against budget to measure year-to-date performance and make strategic decisions accordingly.
