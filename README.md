@@ -18,6 +18,10 @@ There are five main pages in the budget planning UI:
 
 ## Installation & Dependencies
 
+**React**
+- npm init
+- npm install (download everything on the package.json file)
+
 **Python**
 - pip install neo4j==4.4.3
 - pip install mysql-connector-python==2.2.9
@@ -26,8 +30,9 @@ There are five main pages in the budget planning UI:
 - pip install Flask-Cors==3.0.10
 - pip install numpy
 
-**React**
-
+## How To Start
+1. python flask_server.py
+2. npm start
 
 ## Excel vs. Budget Planning App
 
