@@ -67,7 +67,7 @@ To create a plan, the planner must fill out the required information (*) on the 
   <img width="358" alt="image" src="https://user-images.githubusercontent.com/17026620/177019177-885737b4-4d87-4f00-96fa-7c70b6d080c7.png">
 </p>
 
-**Clone**: This operation will generate an identical budget plan that is already in the graph database. Let’s say a planner wants to clone the budget plan, and the plan corresponding to the version node.
+**Clone**: This operation will generate an identical budget plan that is already in the graph database.
 
 **Delete**: This operation will delete a budget plan from the plan graph database. Deleting the plan from the plan graph database will not affect the version node in the history database. 
 
