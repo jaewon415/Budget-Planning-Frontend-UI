@@ -117,6 +117,6 @@ Disaggregation: The application provdies a variety of data spreading methods tha
   <img width="362" alt="image" src="https://user-images.githubusercontent.com/17026620/177019293-0b333c60-4315-4264-9668-53c7df2cf92c.png">
 </p>
 
-Retrieve operation will bring back the old budget plan (blue) from the version history graph database to the plan graph database.
+Retrieve operation will bring back the old budget plan from the version history graph database to the plan graph database.
 
 ## References
