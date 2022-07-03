@@ -44,7 +44,7 @@ There are five main pages in the budget planning UI:
 
 ## Key Functionalities
 
-### Create a budget plan
+### I. Create a budget plan
 <p align="center">
   <img width="350" height="250" src="https://user-images.githubusercontent.com/17026620/177019136-70a1aba0-7c75-4263-85af-40f1a4e44af2.png">
 </p>
@@ -61,7 +61,7 @@ To create a plan, the planner must fill out the required information (*) on the 
 
 **Access Control**:  Allow planners in the division/department to view or edit the budget plan in the lower level of the organization hierarchy. 
 
-### Manipulate a budget plan
+### II. Manipulate a budget plan
 
 <p align="center">
   <img width="358" alt="image" src="https://user-images.githubusercontent.com/17026620/177019177-885737b4-4d87-4f00-96fa-7c70b6d080c7.png">
@@ -81,7 +81,7 @@ To create a plan, the planner must fill out the required information (*) on the 
 
 **Merge**: This operation will merge two budget plans into one budget plan.
 
-### Edit Hierarchical Spreadsheet
+### III. Edit Hierarchical Spreadsheet
 
 Save: This operation will save the changes made on the working spreadsheet to the plan graph database.
 
@@ -96,7 +96,7 @@ Disaggregation: The application provdies a variety of data spreading methods tha
 - Row average: This method uses the average of each budget data in the planning period to fill out the budget value of interest.
 - Interval Disaggregation: Different from the traditional method where the planner had to work top-down to disaggregate the target, the interval disaggregation operation automates the disaggregation process using the prediction interval of linear regression on the hierarchical data.
 
-### Retrive a budget plan
+### IV. Retrive a budget plan
 
 
 <p align="center">
