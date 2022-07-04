@@ -48,6 +48,9 @@ There are five main pages in the budget planning UI:
 5. python flask_server.py
 6. npm start
 
+## Data format 
+
+
 ## Excel vs. Budget Planning App
 
 **Dependent on the creator**: Excel spreadsheets are typically dependent on one person who constructed the budget and who updates them every year. Most challenges with Excel come from the fact that there is lack of knowledge transfer when the person that created the spreadsheet leaves the company.
