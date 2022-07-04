@@ -49,7 +49,8 @@ There are five main pages in the budget planning UI:
 6. npm start
 
 ## Data format 
-
+- Must define a category and its subcategory in the export_variables.py
+- Must change the column names in the flask_server.py
 
 ## Excel vs. Budget Planning App
 
