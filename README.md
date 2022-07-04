@@ -108,7 +108,7 @@ To create a plan, the planner must fill out the required information (*) on the 
 
 **Undo/Redo**: The undo function is used to reverse a mistake, such as deleting the wrong word in a sentence. The redo function restores any actions that were previously undone using an undo.
 
-**Disaggregation**: The application provdies a variety of data spreading methods that you can use to distribute numeric data to cells. For example, you can use data spreading to evenly distribute a value across a range of cells or to increment all values in a range of cells by a desired percentage. The methods that are available in the disaggregation dialog box.
+**Disaggregation**: The application provides a variety of data spreading methods that you can use to distribute numeric data to cells. For example, you can use data spreading to evenly distribute a value across a range of cells or to increment all values in the hierarchical spreadsheet. The methods that are available in the disaggregation dialog box.
 
 - Referential Disaggregation: This method disaggregates a value to its immediate subordinate categories by some reference values in the previous planning period.
 - Proportional disaggregation: This method disaggregates a value to its immediate subordinate categories evenly.
