@@ -52,14 +52,6 @@ There are five main pages in the budget planning UI:
 - Must define a category and its subcategory in the export_variables.py
 - Must change the column names in the flask_server.py
 
-## Excel vs. Budget Planning App
-
-**Dependent on the creator**: Excel spreadsheets are typically dependent on one person who constructed the budget and who updates them every year. Most challenges with Excel come from the fact that there is lack of knowledge transfer when the person that created the spreadsheet leaves the company.
-
-**Inefficient**: Excel is unfortunately vulnerable to human error, as it relies on manual data entry to create budgets and plans. If any part of the data is entered incorrectly, it may throw off the entire plan, which could have a devastating impact on the company. There is a lot of work spent on modifying and correcting Excel spreadsheets.
-
-**One User-Oriented**: Excel is difficult for multiple users entering and analysing data at the same time. The file becomes more prone to error when multiple users are editing and accessing the data at the same time. Budgeting often requires consolidating data from across the organization.
-
 ## Key Functionalities
 
 ### I. Create a budget plan
@@ -123,5 +115,13 @@ To create a plan, the planner must fill out the required information (*) on the 
   <img width="362" alt="image" src="https://user-images.githubusercontent.com/17026620/177019293-0b333c60-4315-4264-9668-53c7df2cf92c.png">
 </p>
  -->
+
+## Excel vs. Budget Planning App
+
+**Dependent on the creator**: Excel spreadsheets are typically dependent on one person who constructed the budget and who updates them every year. Most challenges with Excel come from the fact that there is lack of knowledge transfer when the person that created the spreadsheet leaves the company.
+
+**Inefficient**: Excel is unfortunately vulnerable to human error, as it relies on manual data entry to create budgets and plans. If any part of the data is entered incorrectly, it may throw off the entire plan, which could have a devastating impact on the company. There is a lot of work spent on modifying and correcting Excel spreadsheets.
+
+**One User-Oriented**: Excel is difficult for multiple users entering and analysing data at the same time. The file becomes more prone to error when multiple users are editing and accessing the data at the same time. Budgeting often requires consolidating data from across the organization.
 
 ## References
