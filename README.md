@@ -90,6 +90,8 @@ To create a plan, the planner must fill out the required information (*) on the 
 
 **Edit plan**: The planner can edit the budget plan. The current page will redirect to the Table page when clicked. The planner can then edit the plan as one would do with other budget plans.
 
+**Retrieve**: This operation will bring back the old budget plan from the version history graph database to the plan graph database.
+
 **Save as**: This will allow the planner to make changes to the initial budget information such as constraints, plan start and end date, etc.
 
 <p align="center">
@@ -112,14 +114,13 @@ Disaggregation: The application provdies a variety of data spreading methods tha
 - Proportional disaggregation: This method disaggregates a value to its immediate subordinate categories evenly.
 - Row average: This method uses the average of each budget data in the planning period to fill out the budget value of interest.
 - Interval Disaggregation: Different from the traditional method where the planner had to work top-down to disaggregate the target, the interval disaggregation operation automates the disaggregation process using the prediction interval of linear regression on the hierarchical data.
-
+<!-- 
 ### IV. Retrive a budget plan
 
 
 <p align="center">
   <img width="362" alt="image" src="https://user-images.githubusercontent.com/17026620/177019293-0b333c60-4315-4264-9668-53c7df2cf92c.png">
 </p>
-
-Retrieve operation will bring back the old budget plan from the version history graph database to the plan graph database.
+ -->
 
 ## References
