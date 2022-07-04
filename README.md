@@ -1,7 +1,7 @@
 # Budget Planning
 
 <p align="center">
-  <img width="642" alt="Screen Shot 2022-07-03 at 9 26 40 AM" src="https://user-images.githubusercontent.com/17026620/177019940-83ca5947-7324-44e4-8183-eff67aca3a73.png">
+  <img width="643" alt="Screen Shot 2022-07-03 at 9 26 40 AM" src="https://user-images.githubusercontent.com/17026620/177019940-83ca5947-7324-44e4-8183-eff67aca3a73.png">
   
 </p>
 
