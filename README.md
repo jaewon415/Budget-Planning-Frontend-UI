@@ -31,7 +31,7 @@ There are five main pages in the budget planning UI:
 **React**
 ```
 npm init
-npm install (download everything on the package.json file)
+npm install (package.json)
 ```
 **Python**
 ```
@@ -44,7 +44,7 @@ pip install numpy
 ```
 
 ## How To Start
-1. Define a label for your hierarchical structure in export_variables.py
+1. Define a label for your hierarchical structure in `export_variables.py`
 2. Create two graph databases; one for version, another for actuals (need to change the username of the database)
 3. Change the bolt-listen-address, name, password in the `neo4j_python.Graph()` & `mysql.connector.connect()` functions (*.py)
 4. Change the `path` variable in the flask_server.py
@@ -52,8 +52,8 @@ pip install numpy
 6. `npm start`
 
 ## Data format 
-- Must define a category and its subcategory in the export_variables.py
-- Must change the column names in the flask_server.py
+- Must define a category and its subcategory in the `export_variables.py`
+- Must change the column names in the `flask_server.py`
 
 ## Key Functionalities
 
