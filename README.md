@@ -59,7 +59,7 @@ pip install numpy
 
 ### I. Create a budget plan
 <p align="center">
-  <img width="350" height="250" src="https://user-images.githubusercontent.com/17026620/177019136-70a1aba0-7c75-4263-85af-40f1a4e44af2.png">
+  <img width="290" height="210" src="https://user-images.githubusercontent.com/17026620/177019136-70a1aba0-7c75-4263-85af-40f1a4e44af2.png">
 </p>
 
 To create a plan, the planner must fill out the required information (*) on the form, and all inputs should also be valid. For instance, the date should be in mm/dd/yyyy format, and constraints should have all entries filled out. 
