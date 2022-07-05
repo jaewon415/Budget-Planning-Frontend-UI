@@ -53,14 +53,12 @@ pip install numpy
 
 ## Data format 
 - Define a category and its subcategory in the `export_variables.py`
+  - Items are linked to each other in parent-child relationships
 - Change the column names in the `flask_server.py`
-
 
 <p align="center">
   <img width="496" alt="Screen Shot 2022-07-05 at 10 23 18 AM" src="https://user-images.githubusercontent.com/17026620/177231610-53b13a6c-4551-4cfa-8aaf-5a8c9644b74c.png">
 </p>
-
-
 
 
 ## Key Functionalities
