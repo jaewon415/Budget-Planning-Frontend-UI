@@ -15,7 +15,7 @@
 - **Disaggregation**: Referential, Interval, proportional, and row-average disaggregate operators are implemented -->
 
 There are five main pages in the budget planning UI:
--	**Home Page**: Budget planners typically don’t stick with just one budget because there are too many uncertainties about the future. The whole point of a budget is to set expectations over a certain period of time and measure performance against the actual. This page will allow a planner to compare actual against budget to measure year-to-date performance and make strategic decisions accordingly.
+-	**Home Page**: Budget planners typically don’t stick with just one budget because there are too many uncertainties about the future. The whole point of a budget is to set expectations over a certain period of time and measure performance against the actual. This page will allow a planner to compare actual against budget to measure X-to-date performance and make strategic decisions accordingly.
 
 -	**Create Page**: Making a budget plan is the first step toward the budget process. The planner can think of this process as designing a template for the budget plan – the planning period may be in months, quarters, or even years. The planner should complete the form on the create page with the right information. The required entries are the name of the budget plan, the planning duration, the base planning period, and the plan description (constraints, access control, and roll-up if applicable)
 
