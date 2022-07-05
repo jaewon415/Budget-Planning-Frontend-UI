@@ -21,8 +21,7 @@ import scipy.stats
 from scipy.stats import linregress
 from collections import defaultdict
 import collections, functools, operator
-import disaggregation 
-from sklearn.ensemble import GradientBoostingRegressor
+import disaggregation
 
 import re
 import mysql.connector
@@ -36,7 +35,7 @@ COLUMNS_CLONE = export_variables.COLUMNS_CLONE
 HISTORY_COLUMN = export_variables.HISTORY_COLUMN
 ORGANIZATION_HIERARCHY = export_variables.ORGANIZATION_HIERARCHY
 
-path = '/Users/james/Desktop/budget Planning/Research Sample Data/*.csv'
+path = '/Sample Data/*.csv'
 mysql_passwd = '######'
 mysql_dbname = '######'
 
@@ -423,16 +422,10 @@ def getFormula():
                     rows[period] = sum(summation)
                     matching_hierarchies.append(hierarchies)
 
-        # print(matching_hierarchies)
         requested_data_df = pd.DataFrame(values)
-        #  데이터사이언스대학원2017= 데이터사이언스대학원2016+ 간접비2016
-        # print(matching_hierarchies)
         hierarchy_groups = copy.deepcopy(matching_hierarchies[0])
         hierarchy_groups_len = len(hierarchy_groups)
         period_of_interest = period
-        # print(hierarchy_groups)
-        # print(hierarchy_groups_len)
-        # print(period_of_interest)
         for _ in range(0, hierarchy_groups_len - 1):
             hierarchy_groups.pop()
             superior_category_id = int(requested_data_df[requested_data_df.hierarchy.map(tuple).isin([tuple(hierarchy_groups)])]['id'])
@@ -972,11 +965,6 @@ def createInitialBudgetPlan():
 
     plan_date[0] = '2019-08-03'
     plan_date[1] = '2019-09-03'
-    # start_plan_date = '2018-08-03'
-    # end_plan_date = '2018-09-03'
-    # start_plan_date = datetime.strptime(plan_date[0][:10], '%Y-%m-%d').strftime('%Y-%m-%d')
-    # end_plan_date = datetime.strptime(plan_date[1][:10], '%Y-%m-%d').strftime('%Y-%m-%d')
-    # print(start_plan_date)
     budgetNameRollup = data['budgetNameRollup']
     if len(budgetNameRollup) > 0:
         l_result = []
@@ -1376,15 +1364,7 @@ def aggregateAlongTheHierarchy():
     requested_data = request.get_json()['state']
     editted_rows_model = requested_data['editRowsModel']
     data = requested_data['apiRef_values']
-    
-    # print(editted_rows_model)
-    # print(data)
 
-    # [{'hierarchyOne': '직', 'inequality': '>=', 'values': '20', 'hierarchyTwo': '간'}, {'hierarchyOne': '장', 'inequality': '>=', 'values': '10', 'hierarchyTwo': '직'}]
-    # plan_constraints = requested_data['combinedForm']['plan_constraints']
-    # if isinstance(plan_constraints, str):
-    #     plan_constraints = eval(plan_constraints)
-    # print(plan_constraints)
 
     matching_id = int(list(editted_rows_model.keys())[0])
     period_of_interest = str(list(editted_rows_model[str(matching_id)].keys())[0])
