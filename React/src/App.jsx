@@ -30,7 +30,6 @@ const App = () => {
         if(sessionStorage.getItem('division') !== null) {
             setDivision(sessionStorage.getItem('division'))
             setUserName(sessionStorage.getItem('userName'))
-            // console.log(sessionStorage.getItem('userName'))
         }
     }, [])
 
