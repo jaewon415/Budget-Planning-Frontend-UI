@@ -168,6 +168,12 @@ Disaggregation methods available in this applications are as follows:
 - Proportional disaggregation: This method disaggregates a value to its immediate subordinate categories evenly.
 - Row average: This method uses the average of each budget data in the planning period to fill out the budget value of interest.
 - Interval Disaggregation: Different from the traditional method where the planner had to work top-down to disaggregate the target, the interval disaggregation operation automates the disaggregation process using the prediction interval of linear regression on the hierarchical data.
+
+Constraints have as much importance to business planning. The quality of the plan boils down to how well one identifies the policies and requirements. For many real-world applications, however, the elements in the hierarchical structure share common constraints. This is the case for budget planning. For instance, the travel expense cannot exceed 20 percent of research activity expenses. Then planner has to think about the constraint on the travel expense when disaggregating a value.
+
+Budget planner can also add constraint in the disaggregation dialog box. This functionality is only bounded to interval disaggregation. 
+
+
 <!-- 
 ### IV. Retrive a budget plan
 
