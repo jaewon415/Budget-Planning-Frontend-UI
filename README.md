@@ -88,11 +88,19 @@ To create a plan, the planner must fill out the required information (*) on the 
 
 **Clone**: This operation will generate an identical budget plan. When you clone a budget plan, you copy the plan from the graph database.
 
+<p align="center">
+  <img width="654" alt="image" src="https://user-images.githubusercontent.com/17026620/178139339-6402e093-b3fc-4f6d-b461-be8c1802e3b5.png">
+</p>
+
 1. On budget planning application, navigate to the **plans** page.
 2. Select a budget plan
 3. Above the list of operations available, click CLONE to copy the budget plan
 
 **Delete**: This operation will delete a budget plan from the plan graph database. Deleting the plan from the plan graph database will not affect the version node in the history database. 
+
+<p align="center">
+  <img width="672" alt="image" src="https://user-images.githubusercontent.com/17026620/178139352-1514e9d4-7967-4eee-96a9-cceaf4bacfac.png">
+</p>
 
 1. On budget planning application, navigate to the **plans** page.
 2. Select a budget plan
@@ -101,12 +109,20 @@ To create a plan, the planner must fill out the required information (*) on the 
 
 **Edit plan**: The planner can edit the budget plan. The current page will redirect to the Table page when clicked. The planner can then edit the plan as one would do with other budget plans.
 
+<p align="center">
+  <img width="661" alt="image" src="https://user-images.githubusercontent.com/17026620/178139357-89c4c45c-698b-4a40-a4ae-4aa6a2a29453.png">
+</p>
+
 1. On budget planning application, navigate to the **plans** page.
 2. Select a budget plan
 3. Above the list of operations available, click Edit
 4. Upon click, redirects to the hierarchical spreadsheet
 
 **Save as**: This will allow the planner to make changes to the initial budget information such as constraints, plan start and end date, etc.
+
+<p align="center">
+  <img width="628" alt="image" src="https://user-images.githubusercontent.com/17026620/178139370-adbf2086-781b-4cc8-8e11-d598c2d705ca.png">
+</p>
 
 1. On budget planning application, navigate to the **plans** page.
 2. Select a budget plan
@@ -117,11 +133,11 @@ To create a plan, the planner must fill out the required information (*) on the 
 
 **Retrieve**: This operation will bring back the old budget plan from the version history graph database to the plan graph database.
 
-<p align="center">
-  <img width="324" alt="image" src="https://user-images.githubusercontent.com/17026620/177019191-8f8b4d04-5262-48ea-824c-08f7942feea6.png">
-</p>
-
 **Merge**: This operation will merge two budget plans into one budget plan.
+
+<p align="center">
+  <img width="504" alt="image" src="https://user-images.githubusercontent.com/17026620/178139431-1cda17d6-9eb2-461a-8b45-95e4c874d4ad.png">
+</p>
 
 1. On budget planning application, navigate to the **plans** page.
 2. Select two budget plans
@@ -143,7 +159,6 @@ To create a plan, the planner must fill out the required information (*) on the 
 - Interval Disaggregation: Different from the traditional method where the planner had to work top-down to disaggregate the target, the interval disaggregation operation automates the disaggregation process using the prediction interval of linear regression on the hierarchical data.
 <!-- 
 ### IV. Retrive a budget plan
-
 
 <p align="center">
   <img width="362" alt="image" src="https://user-images.githubusercontent.com/17026620/177019293-0b333c60-4315-4264-9668-53c7df2cf92c.png">
