@@ -153,12 +153,17 @@ To create a plan, the planner must fill out the required information (*) on the 
 
 **Disaggregation**: The application provides a variety of data spreading methods that you can use to distribute numeric data to cells. For example, you can use data spreading to evenly distribute a value across a range of cells or to increment all values in the hierarchical spreadsheet. The methods that are available in the disaggregation dialog box.
 
+<p align="center">
+  <img width="498" alt="image" src="https://user-images.githubusercontent.com/17026620/178140198-c75bda0e-f38e-4c95-9a11-3617c5813aba.png">
+</p>
+
 1. Choose one disaggregation method from the list
 2. Write a category you would like to disaggregate 
 3. Ignore if you have not selected referential disaggregation above, else write a name of the column you wish to take reference of
 4. Type the planning month of your interest 
 5. Enter the amount you would like to disaggregate 
 
+Disaggregation methods available in this applications are as follows:
 - Referential Disaggregation: This method disaggregates a value to its immediate subordinate categories by some reference values in the previous planning period.
 - Proportional disaggregation: This method disaggregates a value to its immediate subordinate categories evenly.
 - Row average: This method uses the average of each budget data in the planning period to fill out the budget value of interest.
@@ -178,5 +183,3 @@ To create a plan, the planner must fill out the required information (*) on the 
 **Inefficient**: Excel is unfortunately vulnerable to human error, as it relies on manual data entry to create budgets and plans. If any part of the data is entered incorrectly, it may throw off the entire plan, which could have a devastating impact on the company. There is a lot of work spent on modifying and correcting Excel spreadsheets.
 
 **One User-Oriented**: Excel is difficult for multiple users entering and analysing data at the same time. The file becomes more prone to error when multiple users are editing and accessing the data at the same time. Budgeting often requires consolidating data from across the organization.
-
-## References
