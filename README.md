@@ -153,6 +153,12 @@ To create a plan, the planner must fill out the required information (*) on the 
 
 **Disaggregation**: The application provides a variety of data spreading methods that you can use to distribute numeric data to cells. For example, you can use data spreading to evenly distribute a value across a range of cells or to increment all values in the hierarchical spreadsheet. The methods that are available in the disaggregation dialog box.
 
+1. Choose one disaggregation method from the list
+2. Write a category you would like to disaggregate 
+3. Ignore if you have not selected referential disaggregation above, else write a name of the column you wish to take reference of
+4. Type the planning month of your interest 
+5. Enter the amount you would like to disaggregate 
+
 - Referential Disaggregation: This method disaggregates a value to its immediate subordinate categories by some reference values in the previous planning period.
 - Proportional disaggregation: This method disaggregates a value to its immediate subordinate categories evenly.
 - Row average: This method uses the average of each budget data in the planning period to fill out the budget value of interest.
