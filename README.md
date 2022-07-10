@@ -86,21 +86,46 @@ To create a plan, the planner must fill out the required information (*) on the 
   <img width="358" alt="image" src="https://user-images.githubusercontent.com/17026620/177019177-885737b4-4d87-4f00-96fa-7c70b6d080c7.png">
 </p>
 
-**Clone**: This operation will generate an identical budget plan that is already in the graph database.
+**Clone**: This operation will generate an identical budget plan. When you clone a budget plan, you copy the plan from the graph database.
+
+1. On budget planning application, navigate to the **plans** page.
+2. Select a budget plan
+3. Above the list of operations available, click CLONE to copy the budget plan
 
 **Delete**: This operation will delete a budget plan from the plan graph database. Deleting the plan from the plan graph database will not affect the version node in the history database. 
 
+1. On budget planning application, navigate to the **plans** page.
+2. Select a budget plan
+3. Above the list of operations available, click DELETE to delete the budget plan
+4. To retrieve deleted budget plan, navigate to the **History** page.
+
 **Edit plan**: The planner can edit the budget plan. The current page will redirect to the Table page when clicked. The planner can then edit the plan as one would do with other budget plans.
 
-**Retrieve**: This operation will bring back the old budget plan from the version history graph database to the plan graph database.
+1. On budget planning application, navigate to the **plans** page.
+2. Select a budget plan
+3. Above the list of operations available, click Edit
+4. Upon click, redirects to the hierarchical spreadsheet
 
 **Save as**: This will allow the planner to make changes to the initial budget information such as constraints, plan start and end date, etc.
+
+1. On budget planning application, navigate to the **plans** page.
+2. Select a budget plan
+3. Above the list of operations available, click Save As
+4. Plan Information box will show up on the right
+5. Change the budget plan information such constraints and description
+6. Click Save when you are done
+
+**Retrieve**: This operation will bring back the old budget plan from the version history graph database to the plan graph database.
 
 <p align="center">
   <img width="324" alt="image" src="https://user-images.githubusercontent.com/17026620/177019191-8f8b4d04-5262-48ea-824c-08f7942feea6.png">
 </p>
 
 **Merge**: This operation will merge two budget plans into one budget plan.
+
+1. On budget planning application, navigate to the **plans** page.
+2. Select two budget plans
+3. Above the list of operations available, click MERGE
 
 ### III. Edit Hierarchical Spreadsheet
 
