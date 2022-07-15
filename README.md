@@ -46,7 +46,7 @@ pip install numpy
 ## How To Start
 1. Define a label for your hierarchical structure in `export_variables.py`
 2. Create two graph databases; one for version, another for actuals (need to change the username of the database)
-3. Change the bolt-listen-address, name, password in the `neo4j_python.Graph()` & `mysql.connector.connect()` functions (*.py)
+3. Change the bolt-listen-address, name, and password in the `neo4j_python.Graph()` & `mysql.connector.connect()` functions (*.py)
 4. Change the `path` variable in the flask_server.py
 5. `python flask_server.py`
 6. `npm start`
@@ -78,7 +78,7 @@ To create a plan, the planner must fill out the required information (*) on the 
 
 **Select Roll-up plan**s: Like how every location in the organization is represented as part of the organization structure hierarchy, the budget plans of entities can also be a part of the budget plan of the larger entity. The planner can create a new roll-up budget plan and edit the plan as one would do with other budget plans. A roll-up plan will consolidate multiple budget plans from its subordinate organization. 
 
-**Access Control**:  Allow planners in the division/department to view or edit the budget plan in the lower level of the organization hierarchy. 
+**Access Control**:  Allow planners in the division/department to view or edit the budget plan at the lower level of the organization hierarchy. 
 
 ### II. Manipulate a budget plan
 
@@ -92,7 +92,7 @@ To create a plan, the planner must fill out the required information (*) on the 
   <img width="654" alt="image" src="https://user-images.githubusercontent.com/17026620/178139339-6402e093-b3fc-4f6d-b461-be8c1802e3b5.png">
 </p>
 
-1. On budget planning application, navigate to the **plans** page.
+1. On the budget planning application, navigate to the **plans** page.
 2. Select a budget plan
 3. Above the list of operations available, click CLONE to copy the budget plan
 
@@ -102,7 +102,7 @@ To create a plan, the planner must fill out the required information (*) on the 
   <img width="672" alt="image" src="https://user-images.githubusercontent.com/17026620/178139352-1514e9d4-7967-4eee-96a9-cceaf4bacfac.png">
 </p>
 
-1. On budget planning application, navigate to the **plans** page.
+1. On the budget planning application, navigate to the **plans** page.
 2. Select a budget plan
 3. Above the list of operations available, click DELETE to delete the budget plan
 4. To retrieve deleted budget plan, navigate to the **History** page.
@@ -113,10 +113,10 @@ To create a plan, the planner must fill out the required information (*) on the 
   <img width="661" alt="image" src="https://user-images.githubusercontent.com/17026620/178139357-89c4c45c-698b-4a40-a4ae-4aa6a2a29453.png">
 </p>
 
-1. On budget planning application, navigate to the **plans** page.
+1. On the budget planning application, navigate to the **plans** page.
 2. Select a budget plan
 3. Above the list of operations available, click Edit
-4. Upon click, redirects to the hierarchical spreadsheet
+4. Upon click, it redirects to the hierarchical spreadsheet
 
 **Save as**: This will allow the planner to make changes to the initial budget information such as constraints, plan start and end date, etc.
 
@@ -124,7 +124,7 @@ To create a plan, the planner must fill out the required information (*) on the 
   <img width="628" alt="image" src="https://user-images.githubusercontent.com/17026620/178139370-adbf2086-781b-4cc8-8e11-d598c2d705ca.png">
 </p>
 
-1. On budget planning application, navigate to the **plans** page.
+1. On the budget planning application, navigate to the **plans** page.
 2. Select a budget plan
 3. Above the list of operations available, click Save As
 4. Plan Information box will show up on the right
@@ -133,13 +133,13 @@ To create a plan, the planner must fill out the required information (*) on the 
 
 **Retrieve**: This operation will bring back the old budget plan from the version history graph database to the plan graph database.
 
-**Merge**: This operation will merge two budget plans into one budget plan.
+**Merge**: Some budget items in the project may need to be reduced or eliminated for a variety of reasons, ranging from This operation will merge two budget plans into one budget plan.
 
 <p align="center">
   <img width="504" alt="image" src="https://user-images.githubusercontent.com/17026620/178139431-1cda17d6-9eb2-461a-8b45-95e4c874d4ad.png">
 </p>
 
-1. On budget planning application, navigate to the **plans** page.
+1. On the budget planning application, navigate to the **plans** page.
 2. Select two budget plans
 3. Above the list of operations available, click MERGE
 
@@ -151,25 +151,25 @@ To create a plan, the planner must fill out the required information (*) on the 
 
 **Undo/Redo**: The undo function is used to reverse a mistake, such as deleting the wrong word in a sentence. The redo function restores any actions that were previously undone using an undo.
 
-**Disaggregation**: The application provides a variety of data spreading methods that you can use to distribute numeric data to cells. For example, you can use data spreading to evenly distribute a value across a range of cells or to increment all values in the hierarchical spreadsheet. The methods that are available in the disaggregation dialog box.
+**Disaggregation**: The application provides a variety of data spreading methods that you can use to distribute numeric data to cells. For example, you can use data spreading to distribute a value across a range of cells evenly or to increment all values in the hierarchical spreadsheet. The methods are available in the disaggregation dialog box.
 
 <p align="center">
   <img width="498" alt="image" src="https://user-images.githubusercontent.com/17026620/178140198-c75bda0e-f38e-4c95-9a11-3617c5813aba.png">
 </p>
 
-1. Choose one disaggregation method from the list
+1. Choose one disaggregation method from the list.
 2. Write a category you would like to disaggregate 
-3. Ignore if you have not selected referential disaggregation above, else write a name of the column you wish to take reference of
+3. Ignore if you have not selected referential disaggregation above; else write the name of the column you wish to take reference of
 4. Type the planning month of your interest 
 5. Enter the amount you would like to disaggregate 
 
-Disaggregation methods available in this applications are as follows:
+Disaggregation methods available in this application are as follows::
 - Referential Disaggregation: This method disaggregates a value to its immediate subordinate categories by some reference values in the previous planning period.
 - Proportional disaggregation: This method disaggregates a value to its immediate subordinate categories evenly.
 - Row average: This method uses the average of each budget data in the planning period to fill out the budget value of interest.
-- Interval Disaggregation: Different from the traditional method where the planner had to work top-down to disaggregate the target, the interval disaggregation operation automates the disaggregation process using the prediction interval of linear regression on the hierarchical data.
+- Interval Disaggregation: Different from the traditional method, where the planner had to work top-down to disaggregate the target, the interval disaggregation operation automates the disaggregation process using the prediction interval of linear regression on the hierarchical data.
 
-Constraints have as much importance to business planning. The quality of the plan boils down to how well one identifies the policies and requirements. For many real-world applications, however, the elements in the hierarchical structure share common constraints. This is the case for budget planning. For instance, the travel expense cannot exceed 20 percent of research activity expenses. Then planner has to think about the constraint on the travel expense when disaggregating a value. Budget planner can also add constraint in the disaggregation dialog box. This functionality is only bounded to interval disaggregation. 
+Constraints have as much importance to business planning. The quality of the plan boils down to how well one identifies the policies and requirements. For many real-world applications, however, the elements in the hierarchical structure share common constraints. This is the case for budget planning. For instance, the travel expense cannot exceed 20% of research activity expenses. Then planner has to think about the constraint on the travel expense when disaggregating a value. The budget planner can also add constraints in the disaggregation dialog box. This functionality is only bounded to interval disaggregation.
 
 
 <p align="center">
@@ -187,8 +187,8 @@ Constraints have as much importance to business planning. The quality of the pla
 
 ## Excel vs. Budget Planning App
 
-**Dependent on the creator**: Excel spreadsheets are typically dependent on one person who constructed the budget and who updates them every year. Most challenges with Excel come from the fact that there is lack of knowledge transfer when the person that created the spreadsheet leaves the company.
+**Dependent on the creator**: Excel spreadsheets are typically dependent on one person who constructed the budget and who updates them every year. Most challenges with Excel come from the fact that there is a lack of knowledge transfer when the person that created the spreadsheet leaves the company.
 
 **Inefficient**: Excel is unfortunately vulnerable to human error, as it relies on manual data entry to create budgets and plans. If any part of the data is entered incorrectly, it may throw off the entire plan, which could have a devastating impact on the company. There is a lot of work spent on modifying and correcting Excel spreadsheets.
 
-**One User-Oriented**: Excel is difficult for multiple users entering and analysing data at the same time. The file becomes more prone to error when multiple users are editing and accessing the data at the same time. Budgeting often requires consolidating data from across the organization.
+**One User-Oriented**: Excel is difficult for multiple users to enter and analyze data at the same time. The file becomes more prone to error when multiple users are editing and accessing the data at the same time. Budgeting often requires consolidating data from across the organization.
